@@ -12,7 +12,6 @@ function App() {
     return (
         <div className="">
             <HeaderMain></HeaderMain>
-
             <Routes>
                 <Route path="/" element={<PageHome></PageHome>}></Route>
                 <Route path="/home" element={<PageHome></PageHome>}></Route>
