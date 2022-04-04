@@ -1,9 +1,12 @@
 import "./App.css";
+import HeaderMain from "./components/Header/Header";
+import Home from "./components/Home/Home";
 
 function App() {
     return (
         <div className="">
-            <h1 className="text-center text-danger">Hello World!</h1>
+            <HeaderMain></HeaderMain>
+            <Home></Home>
         </div>
     );
 }
