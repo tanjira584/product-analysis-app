@@ -1,9 +1,11 @@
 import React from "react";
 import Breadcumb from "../Breadcumb/Breadcumb";
+import HeaderMain from "../Header/Header";
 
 const PageBlog = () => {
     return (
         <section>
+            <HeaderMain></HeaderMain>
             <Breadcumb page="Blogs"></Breadcumb>
             <div className="container py-5">
                 <div className="row">

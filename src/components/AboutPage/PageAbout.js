@@ -1,9 +1,12 @@
 import React from "react";
+import Breadcumb from "../Breadcumb/Breadcumb";
+import HeaderMain from "../Header/Header";
 
 const PageAbout = () => {
     return (
         <div>
-            <h2>This is About page</h2>
+            <HeaderMain></HeaderMain>
+            <Breadcumb page="About"></Breadcumb>
         </div>
     );
 };

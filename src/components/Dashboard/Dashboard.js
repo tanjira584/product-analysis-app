@@ -10,6 +10,7 @@ import {
     Legend,
     Bar,
 } from "recharts";
+import HeaderMain from "../Header/Header";
 
 const Dashboard = () => {
     const [info, setData] = useState([]);
@@ -21,6 +22,7 @@ const Dashboard = () => {
     console.log(info);
     return (
         <div>
+            <HeaderMain></HeaderMain>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 p-4">

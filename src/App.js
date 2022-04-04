@@ -11,7 +11,6 @@ import Page404 from "./components/404Page/Page404";
 function App() {
     return (
         <div className="">
-            <HeaderMain></HeaderMain>
             <Routes>
                 <Route path="/" element={<PageHome></PageHome>}></Route>
                 <Route path="/home" element={<PageHome></PageHome>}></Route>

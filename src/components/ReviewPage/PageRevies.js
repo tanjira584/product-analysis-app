@@ -3,11 +3,13 @@ import SingleReviews from "../Reviews/SingleReviews";
 import useReviews from "../../hooks/useReviews";
 import "./PageReviews.css";
 import Breadcumb from "../Breadcumb/Breadcumb";
+import HeaderMain from "../Header/Header";
 
 const PageReview = () => {
     const [reviews, setReviews] = useReviews();
     return (
         <section>
+            <HeaderMain></HeaderMain>
             <Breadcumb page="Reviews"></Breadcumb>
             <div className="all-reviews">
                 <div className="container">

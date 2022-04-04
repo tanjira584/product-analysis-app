@@ -15,10 +15,9 @@ const Home = () => {
                             Smart Watch Silver <span>Royel</span>
                         </h1>
                         <p>
-                            In publishing and graphic design, Lorem ipsum is a
-                            placeholder text commonly used to demonstrate the
-                            visual form of a document or a typeface without
-                            relying on meaningful content.
+                            For the most part, someone who is in love with
+                            mechanical watches is not going to decide to wear a
+                            smartwatch over a mechanical watch.
                         </p>
                         <a href="#">Live Demo</a>
                     </div>

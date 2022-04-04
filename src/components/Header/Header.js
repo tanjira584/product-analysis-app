@@ -17,7 +17,7 @@ import {
     faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const HeaderMain = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
@@ -38,30 +38,55 @@ const HeaderMain = () => {
                     </div>
                     <div className="main-menu d-none d-lg-block">
                         <ul>
-                            <li className="active">
-                                <Link to="/" className="anchor">
+                            <li className="">
+                                <NavLink
+                                    to="/"
+                                    className={(navInfo) =>
+                                        navInfo.isActive ? "active" : " "
+                                    }
+                                >
                                     Home
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to="/about" className="anchor">
+                                <NavLink
+                                    to="/about"
+                                    className={(navInfo) =>
+                                        navInfo.isActive ? "active" : " "
+                                    }
+                                >
                                     About
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to="/reviews" className="anchor">
+                                <NavLink
+                                    to="/reviews"
+                                    className={(navInfo) =>
+                                        navInfo.isActive ? "active" : " "
+                                    }
+                                >
                                     Reviews
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to="/dashboard" className="anchor">
+                                <NavLink
+                                    to="/dashboard"
+                                    className={(navInfo) =>
+                                        navInfo.isActive ? "active" : " "
+                                    }
+                                >
                                     Dashboard
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to="/blogs" className="anchor">
+                                <NavLink
+                                    to="/blogs"
+                                    className={(navInfo) =>
+                                        navInfo.isActive ? "active" : " "
+                                    }
+                                >
                                     Blogs
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
