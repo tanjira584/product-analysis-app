@@ -17,6 +17,7 @@ import {
     faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const HeaderMain = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
@@ -38,19 +39,29 @@ const HeaderMain = () => {
                     <div className="main-menu d-none d-lg-block">
                         <ul>
                             <li className="active">
-                                <a href=" ">Home</a>
+                                <Link to="/" className="anchor">
+                                    Home
+                                </Link>
                             </li>
                             <li>
-                                <a href=" ">reviews</a>
+                                <Link to="/about" className="anchor">
+                                    About
+                                </Link>
                             </li>
                             <li>
-                                <a href=" ">dashboard</a>
+                                <Link to="/reviews" className="anchor">
+                                    Reviews
+                                </Link>
                             </li>
                             <li>
-                                <a href=" ">Blogs</a>
+                                <Link to="/dashboard" className="anchor">
+                                    Dashboard
+                                </Link>
                             </li>
                             <li>
-                                <a href=" ">about</a>
+                                <Link to="/blogs" className="anchor">
+                                    Blogs
+                                </Link>
                             </li>
                         </ul>
                     </div>

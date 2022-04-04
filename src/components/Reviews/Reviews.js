@@ -1,6 +1,7 @@
 import React from "react";
 import "./Reviews.css";
 import SingleReviews from "./SingleReviews";
+import { Link } from "react-router-dom";
 
 const Reviews = () => {
     return (
@@ -17,7 +18,7 @@ const Reviews = () => {
                     <SingleReviews></SingleReviews>
                 </div>
                 <div className="reviews-btn mt-5 text-center">
-                    <a href="/reviews">See All Reviews</a>
+                    <Link to="/reviews">See All Reviews</Link>
                 </div>
             </div>
         </section>
