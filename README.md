@@ -3,7 +3,7 @@
 ### Live Website Link:
 
 To view it in your browser.
-[http://localhost:3000](http://localhost:3000)
+[https://fabulous-watch.netlify.app/](https://fabulous-watch.netlify.app/)
 
 -   SPA Website
 -   Free Resources
