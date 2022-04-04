@@ -6,6 +6,7 @@ import PageReview from "./components/ReviewPage/PageRevies";
 import PageBlog from "./components/BlogPage/PageBlog";
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard/Dashboard";
+import Page404 from "./components/404Page/Page404";
 
 function App() {
     return (
@@ -25,7 +26,7 @@ function App() {
                     element={<Dashboard></Dashboard>}
                 ></Route>
                 <Route path="/blogs" element={<PageBlog></PageBlog>}></Route>
-                <Route path="*" element={<PageHome></PageHome>}></Route>
+                <Route path="*" element={<Page404></Page404>}></Route>
             </Routes>
         </div>
     );

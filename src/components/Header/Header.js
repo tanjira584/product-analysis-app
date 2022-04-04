@@ -122,19 +122,29 @@ const HeaderMain = () => {
                         <nav className="offcanvas-navigation">
                             <ul>
                                 <li className="active">
-                                    <a href=" ">Home</a>
+                                    <Link to="/" className="anchor">
+                                        Home
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href=" ">Shop</a>
+                                    <Link to="/about" className="anchor">
+                                        About
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href=" ">Collection</a>
+                                    <Link to="/reviews" className="anchor">
+                                        Reviews
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href=" ">Blogs</a>
+                                    <Link to="/dashboard" className="anchor">
+                                        Dashboard
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href=" ">Contact us</a>
+                                    <Link to="/blogs" className="anchor">
+                                        Blogs
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>

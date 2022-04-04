@@ -3,23 +3,19 @@ import "./SingleReviews.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-const SingleReviews = () => {
+const SingleReviews = ({ review }) => {
+    const { name, desc, img, rating } = review;
     return (
-        <div className="col-md-4">
+        <div className="">
             <div className="user-review">
                 <div className="rev-img">
-                    <img src="images/testimonial-1.png" alt="" />
+                    <img src={img} alt="" />
                 </div>
                 <div className="rev-text">
-                    <p>
-                        There are many variations of lorem ipsum available, but
-                        the have suffered alteration in some form by
-                        humour.”Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry.
-                    </p>
+                    <p>{desc}</p>
                 </div>
                 <div className="rev-info">
-                    <h5>Luies Charls</h5>
+                    <h5>{name}</h5>
                     <p>Web Developer</p>
                 </div>
                 <div className="rev-rating">
