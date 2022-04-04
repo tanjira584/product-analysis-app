@@ -8,7 +8,7 @@ const PageReview = () => {
     const [reviews, setReviews] = useReviews();
     return (
         <section>
-            <Breadcumb></Breadcumb>
+            <Breadcumb page="Reviews"></Breadcumb>
             <div className="all-reviews">
                 <div className="container">
                     <div className="row">
