@@ -2,42 +2,42 @@
     {
         "id": 1,
         "name": "Tanjir Ahmed",
-        "desc": "There are many variations of lorem ipsum available, but the have suffered alteration in some form by humour.”Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "desc": "A timeless beauty. The watch is a wonderful sight on my wife's wrist. I bought it as a birthday/ vacation gift and it was a very wise thing to do. The pink/goldtone is splendid for beachware and restaurants as well. It seems to go with most things in her wardrobe. Last but not least, it keeps perfect time!",
         "img": "images/testimonial-1.png",
-        "rating": 5
+        "rating": 4
     },
     {
         "id": 2,
         "name": "Offial Hasnat",
-        "desc": "There are many variations of lorem ipsum available, but the have suffered alteration in some form by humour.”Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "desc": "Love the watch, fast delivery. Very happy! Will buy again. The selection was amazing and I noted it so that when I'm looking for something out of the ordinary I can find it at a great price. Great selection of watches. I ordered a basic Timex with a rose/gold face and light gray strap. It is very catching and timeless.",
         "img": "images/testimonial-2.png",
-        "rating": 4
+        "rating": 5
     },
     {
         "id": 3,
         "name": "Luois Charls",
-        "desc": "There are many variations of lorem ipsum available, but the have suffered alteration in some form by humour.”Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "desc": "Good service I got what I ordered. I ordered a G-Shock watch. I was kept apprized of the shipping and delivery date via email. I received the watch carefully packed. I'm very happy with my purchase as soon as I learn how to use the watches features. Fast delivery. Very happy! Will buy again.",
         "img": "images/testimonial-3.png",
-        "rating": 5
+        "rating": 3
     },
     {
         "id": 4,
         "name": "Eftekhar Alom",
-        "desc": "There are many variations of lorem ipsum available, but the have suffered alteration in some form by humour.”Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "desc": "Great selection of watches!. The watch is a wonderful sight on my wife's wrist. I bought it as a birthday/ vacation gift and it was a very wise thing to do. The pink/goldtone is splendid for beachware and restaurants as well. It seems to go with most things in her wardrobe. Last but not least, it keeps perfect time!",
         "img": "images/testimonial-1.png",
         "rating": 3
     },
     {
         "id": 5,
         "name": "Mahbub Buiya",
-        "desc": "There are many variations of lorem ipsum available, but the have suffered alteration in some form by humour.”Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "desc": "5 Star service. I love the watches, fast delivery. Very happy! Will buy again. The selection was amazing and I noted it so that when I'm looking for something out of the ordinary I can find it at a great price. I ordered a basic Timex with a rose/gold face and light gray strap. It is very catching and timeless.",
         "img": "images/testimonial-2.png",
         "rating": 5
     },
     {
         "id": 6,
         "name": "Md Monnam",
-        "desc": "There are many variations of lorem ipsum available, but the have suffered alteration in some form by humour.”Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "desc": "Very efficient - quick delivery - item just as described. Couldn't ask for more. I ordered a G-Shock watch. I was kept apprized of the shipping and delivery date via email. I received the watch carefully packed. I'm very happy with my purchase as soon as I learn how to use the watches features.",
         "img": "images/testimonial-3.png",
         "rating": 4
     }

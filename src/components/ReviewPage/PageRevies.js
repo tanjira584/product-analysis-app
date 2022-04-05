@@ -4,6 +4,7 @@ import useReviews from "../../hooks/useReviews";
 import "./PageReviews.css";
 import Breadcumb from "../Breadcumb/Breadcumb";
 import HeaderMain from "../Header/Header";
+import Footer from "../Footer";
 
 const PageReview = () => {
     const [reviews, setReviews] = useReviews();
@@ -22,6 +23,7 @@ const PageReview = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </section>
     );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcumb from "../Breadcumb/Breadcumb";
+import Footer from "../Footer";
 import HeaderMain from "../Header/Header";
 
 const PageBlog = () => {
@@ -83,6 +84,7 @@ const PageBlog = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </section>
     );
 };

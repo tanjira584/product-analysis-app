@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcumb from "../Breadcumb/Breadcumb";
+import Footer from "../Footer";
 import HeaderMain from "../Header/Header";
 
 const PageAbout = () => {
@@ -7,6 +8,7 @@ const PageAbout = () => {
         <div>
             <HeaderMain></HeaderMain>
             <Breadcumb page="About"></Breadcumb>
+            <Footer></Footer>
         </div>
     );
 };

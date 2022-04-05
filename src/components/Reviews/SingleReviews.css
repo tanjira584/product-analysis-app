@@ -42,9 +42,8 @@
 .rev-rating ul li {
     display: inline;
     margin: 0 2px;
-    color: #fec42d;
-}
-.rev-rating ul li:nth-child(4),
-.rev-rating ul li:nth-child(5) {
     color: #cccccc;
+}
+.rev-rating ul li.rated {
+    color: #fec42d;
 }

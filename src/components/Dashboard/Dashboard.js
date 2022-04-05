@@ -10,6 +10,7 @@ import {
     Legend,
     Bar,
 } from "recharts";
+import Footer from "../Footer";
 import HeaderMain from "../Header/Header";
 
 const Dashboard = () => {
@@ -75,6 +76,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

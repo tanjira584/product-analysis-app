@@ -20,19 +20,19 @@ const SingleReviews = ({ review }) => {
                 </div>
                 <div className="rev-rating">
                     <ul>
-                        <li>
+                        <li className={rating > 0 ? "rated" : " "}>
                             <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                         </li>
-                        <li>
+                        <li className={rating > 1 ? "rated" : " "}>
                             <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                         </li>
-                        <li>
+                        <li className={rating > 2 ? "rated" : " "}>
                             <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                         </li>
-                        <li>
+                        <li className={rating > 3 ? "rated" : " "}>
                             <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                         </li>
-                        <li>
+                        <li className={rating > 4 ? "rated" : " "}>
                             <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                         </li>
                     </ul>
